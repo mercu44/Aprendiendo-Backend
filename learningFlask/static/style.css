@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;  /* Ancho máximo ajustado */
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;  /* Mantener colapsadas las fronteras */
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;  /* Línea de separación entre filas (más gruesa) */
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;  /* Efecto hover en filas */
+}
+
+tr td {
+    border-right: 2px solid #ddd;  /* Línea de separación entre columnas (más gruesa) */
+}
+
+tr:last-child td {
+    border-bottom: none;  /* Quitar línea de la última fila */
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: #007BFF; /* Color azul para los botones */
+    margin-right: 10px; /* Aumenta el margen a 10px */
+    transition: background-color 0.3s, transform 0.2s;
+    display: inline-block; /* Asegura que se comporten como botones */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Color azul más oscuro al pasar el mouse */
+}
+
+.btn:active {
+    transform: scale(0.95); /* Efecto de botón presionado */
+}
+
+.btn.delete {
+    background-color: #dc3545; /* Color rojo para eliminar */
+}
+
+.btn.delete:hover {
+    background-color: #c82333; /* Color rojo más oscuro al pasar el mouse */
+}
+
+.btn.update {
+    background-color: #28a745; /* Color verde para actualizar */
+}
+
+.btn.update:hover {
+    background-color: #218838; /* Color verde más oscuro al pasar el mouse */
+}
+
+
+
+.form-container {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9; /* Color de fondo suave */
+    border: 1px solid #ddd; /* Borde sutil */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.form-container input[type="text"] {
+    width: calc(100% - 120px); /* Ajusta el ancho */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde claro */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-right: 10px; /* Espacio entre el campo de texto y el botón */
+}
+
+.form-container input[type="submit"] {
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #28a745; /* Color verde para el botón */
+    color: white; /* Color de texto blanco */
+    border: none; /* Sin borde */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
